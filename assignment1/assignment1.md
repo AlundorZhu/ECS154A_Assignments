@@ -5,7 +5,7 @@ In this assignment, you will build fundamental digital logic gates using Logisim
 ## Getting Started with Logisim
 
 ### Installation and Setup
-Download and install Logisim Evolution from [here](canvas link) or from canvas. \
+Download and install Logisim Evolution from [here](https://canvas.ucdavis.edu/courses/1007534/files/28624125?wrap=1) (canvas link). \
 If you're not familiar with Logisim Evolution, please read the user guide first: logisim navbar > Help > User's Guide.
 
 ![User Guide](userGuide.png)
