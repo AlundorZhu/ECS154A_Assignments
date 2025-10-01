@@ -32,6 +32,7 @@ If you're not familiar with Logisim Evolution, please read the user guide first:
 
 **Requirements:**
 - Use **only** components from the "Wiring" folder in Logisim
+- Input/Output pins and wires are allowed
 - You can build a NAND gate using just Pull Resistors and Transistors
 - Name your file `nand.circ`
 
