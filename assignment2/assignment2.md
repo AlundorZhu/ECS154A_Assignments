@@ -49,7 +49,10 @@ Your ALU should support the following operations based on the 4-bit `Opcode` inp
 
 ---
 
-## Task 3: D Flip-Flop
+## Task 3: D Clocked Latch
+
+**Flip-Flop and Latch:** \
+In a FF, there is never a direct path from the input to the output. In a latch, there is a direct path from input to output when the clock is high. So the thing you are making here is a clocked latch, not a real flip-flop. Although logisim built-in D flip-flop can be a clocked latch (setting trigger to high/low level).
 
 **Inputs:**
 - `D` (data)
