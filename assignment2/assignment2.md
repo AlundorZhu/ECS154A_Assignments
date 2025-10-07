@@ -29,8 +29,8 @@ Your ALU should support the following operations based on the 4-bit `Opcode` inp
 
 | Opcode | Operation      |
 |--------|---------------|
-| ?000   | Output A      |
-| ?001   | Output B      |
+| ?000   | Output B      |
+| ?001   | Output A      |
 | ?010   | A AND B       |
 | ?011   | A OR B        |
 | ?100   | A XOR B       |
