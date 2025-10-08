@@ -21,6 +21,9 @@
 
 ![4-bit Adder](adder.png)
 
+**Debug:**
+[output file](adderOutput.txt) for you to diff your solution. Columns are A, B, Sum, Cin, Cout, and Clock - which you can ignore. It's the file used by the autograder.
+
 ---
 
 ## Task 2: ALU (Arithmetic Logic Unit)
@@ -44,6 +47,9 @@ Your ALU should support the following operations based on the 4-bit `Opcode` inp
 - Arrange your ALU circuit to match the diagram below:
 
 ![ALU Diagram](alu.png)
+
+**Debug:**
+[output file](aluOutput.txt) for you to diff your solution. Columns are A, B, Result, Opcode
 
 ---
 
