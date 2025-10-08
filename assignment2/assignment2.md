@@ -29,17 +29,15 @@ Your ALU should support the following operations based on the 4-bit `Opcode` inp
 
 | Opcode | Operation      |
 |--------|---------------|
-| ?000   | Output B      |
-| ?001   | Output A      |
-| ?010   | A AND B       |
-| ?011   | A OR B        |
-| ?100   | A XOR B       |
-| ?101   | NOT A         |
-| ?110   | Negative A    |
+| 0000   | Output B      |
+| 0001   | Output A      |
+| 0010   | A AND B       |
+| 0011   | A OR B        |
+| 0100   | A XOR B       |
+| 0101   | NOT A         |
+| 0110   | Negative A    |
 | 0111   | A + B         |
 | 1111   | A - B         |
-
-(`?` can be 0 or 1; you may ignore it for implementation.)
 
 **Requirements:**
 - name your circuit `alu.circ`
@@ -67,8 +65,3 @@ In a FF, there is never a direct path from the input to the output. In a latch, 
 - name your circuit `dff.circ`
 
 ![D Flip-Flop](d-flip-flop.png)
-
----
-
-**Other things:**
-- auto grader for alu and dff may still be buggy... under progress
