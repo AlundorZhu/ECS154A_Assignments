@@ -19,7 +19,8 @@
 - name your circuit `adder4.circ`
 - Arrange your circuit to look like the diagram below when imported:
 
-![4-bit Adder](adder.png)
+![4-bit Adder](adder.png)\
+Think of it a function, the autograder import the function called `implementation(A, B, C) -> (Sum, Cout)` from the file `adder4.circ`. And it differenciate the inputs (A, B, Cin) by the position (that's why I should you the image of how it should look like!)
 
 **Debug:**
 [output file](adderOutput.txt) for you to diff your solution. Columns are A, B, Sum, Cin, Cout, and Clock - which you can ignore. It's the file used by the autograder.
@@ -27,6 +28,10 @@
 ---
 
 ## Task 2: ALU (Arithmetic Logic Unit)
+
+**Inputs:**
+- `Opcode[3:0]` (4-bit opcode)
+- `A[3:0]`, `B[3:0]` (4-bit inputs)
 
 Your ALU should support the following operations based on the 4-bit `Opcode` input:
 
