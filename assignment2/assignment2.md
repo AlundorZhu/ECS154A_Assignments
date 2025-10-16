@@ -23,7 +23,7 @@
 Think of it a function, the autograder import the function called `implementation(A, B, C) -> (Sum, Cout)` from the file `adder4.circ`. And it differenciate the inputs (A, B, Cin) by the position (that's why I should you the image of how it should look like!)
 
 **Debug:**
-[output file](adderOutput.txt) for you to diff your solution. Columns are A, B, Sum, Cin, Cout, and Clock - which you can ignore. It's the file used by the autograder.
+[output file](adderOutput.txt) for you to use as a test vector.
 
 ---
 
@@ -54,7 +54,7 @@ Your ALU should support the following operations based on the 4-bit `Opcode` inp
 ![ALU Diagram](alu.png)
 
 **Debug:**
-[output file](aluOutput.txt) for you to diff your solution. Columns are A, B, Result, Opcode
+[output file](aluOutput.txt) for test vectors.
 
 ---
 
