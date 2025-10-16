@@ -20,7 +20,7 @@
 - Arrange your circuit to look like the diagram below when imported:
 
 ![4-bit Adder](adder.png)\
-Think of it a function, the autograder import the function called `implementation(A, B, C) -> (Sum, Cout)` from the file `adder4.circ`. And it differenciate the inputs (A, B, Cin) by the position (that's why I should you the image of how it should look like!)
+Think of it a function, the autograder import the function called `implementation(A, B, C) -> (Sum, Cout)` from the file `adder4.circ`. And it differenciate the inputs (A, B, Cin) by the position (that's why I showed you the image of how it should look like!)
 
 **Debug:**
 [output file](adderOutput.txt) for you to use as a test vector.
