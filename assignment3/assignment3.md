@@ -29,6 +29,9 @@ Build a D Master-Slave Flip-Flop that triggers on the rising edge of the clock s
 
 **Outputs:**
 - `Count[2:0]` (3-bit count output)
+  
+**Hint:**
+You are allowed to use registers to store the current state.
 
 **Requirements:**
 - name your circuit `UpDownCounter.circ`
@@ -52,6 +55,9 @@ Implement a vending machine that accepts nickels (5 cents), dimes (10 cents) and
 - `Give Merchandise` (1 bit) - high when the product is dispensed
 - `Return Nickel` (1 bit) - high when a nickel is returned as change
 - `Return Dime` (1 bit) - high when a dime is returned as change
+
+**Hint:**
+You are allowed to use registers to store the current state.
 
 **Requirements:**
 - name your circuit `Vending.circ`
