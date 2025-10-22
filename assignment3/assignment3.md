@@ -15,7 +15,7 @@ Build a D Master-Slave Flip-Flop that triggers on the rising edge of the clock s
 **Requirements:**
 - name your circuit `dff.circ`
 - do not use built-in D flip-flop.
-- Arrange your circuit to look like the diagram below when imported:
+- Arrange your circuit to look like the diagram below when imported:\
 ![dff](dff.png)
 
 
@@ -38,7 +38,7 @@ You are allowed to use registers to store the current state.
 - Count stay at `111` when trying to count up (Enable=1 & CountUpEn=1) from `111`
 - Count stay at `000` when trying to count down (Enable=1 & CountDown=1) from `000`
 - Built in counter is not allowed.
-- Arrange your circuit to look like the diagram below when imported:
+- Arrange your circuit to look like the diagram below when imported:\
 ![counter](counter.png)
 
 ## Vending Machine
@@ -62,5 +62,5 @@ You are allowed to use registers to store the current state.
 **Requirements:**
 - name your circuit `Vending.circ`
 - implement the vending machine as a mealy machine (outputs depend on current state and inputs) \
-- Arrange your circuit to look like the diagram below when imported:
+- Arrange your circuit to look like the diagram below when imported:\
 ![vending](vending.png)
