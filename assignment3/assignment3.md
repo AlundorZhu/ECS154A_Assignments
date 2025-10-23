@@ -13,7 +13,7 @@ Build a D Master-Slave Flip-Flop that triggers on the rising edge of the clock s
 - `Qn` (inverted data output)
 
 **Requirements:**
-- name your circuit `dff.circ`
+- name your circuit `MasterSlaveD.circ`
 - do not use built-in D flip-flop.
 - Arrange your circuit to look like the diagram below when imported:\
 ![dff](dff.png)
