@@ -41,6 +41,9 @@ You are allowed to use registers to store the current state.
 - Arrange your circuit to look like the diagram below when imported:\
 ![counter](counter.png)
 
+**Autograder:**
+Open [UpDownCountergrader.circ](UpDownCountergrader.circ) in Logisim and locate your solution circuit (remember to save). Run the grader via commandline and compare it with [UpDownoutput.txt](UpDownoutput.txt).
+
 ## Vending Machine
 Implement a vending machine that accepts nickels (5 cents), dimes (10 cents) and quarters (25 cents) and dispenses a product when 30 cents or more is inserted. The machine should also return change if more than 30 cents is inserted. The machine accepts one coin at a time.
 
@@ -64,3 +67,6 @@ You are allowed to use registers to store the current state.
 - implement the vending machine as a mealy machine (outputs depend on current state and inputs) \
 - Arrange your circuit to look like the diagram below when imported:\
 ![vending](vending.png)
+
+**Autograder:**
+Open [Vendinggrader.circ](Vendinggrader.circ) in Logisim and locate your solution circuit (remember to save). Run the grader via commandline and compare it with [Vendingoutput.txt](Vendingoutput.txt).
