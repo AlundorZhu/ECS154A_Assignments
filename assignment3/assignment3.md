@@ -44,6 +44,10 @@ You are allowed to use registers to store the current state.
 **Autograder:**
 Open [UpDownCountergrader.circ](UpDownCountergrader.circ) in Logisim and locate your solution circuit (remember to save). Run the grader via commandline and compare it with [UpDownoutput.txt](UpDownoutput.txt).
 
+- to run the autograder: `java -jar logisim-evolution.jar UpDownCountergrader.circ -tty table`
+- to save the output: `java -jar logisim-evolution.jar UpDownCountergrader.circ -tty table > myUpDownoutput.txt`
+- to compare the output: `diff myUpDownoutput.txt UpDownoutput.txt`
+
 ## Vending Machine
 Implement a vending machine that accepts nickels (5 cents), dimes (10 cents) and quarters (25 cents) and dispenses a product when 30 cents or more is inserted. The machine should also return change if more than 30 cents is inserted. The machine accepts one coin at a time.
 
