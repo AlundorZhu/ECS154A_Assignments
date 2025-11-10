@@ -9,6 +9,7 @@ This repository contains all the assignments for the ECS154A course this quarter
 - [Assignment 1](assignment1/assignment1.md)
 - [Assignment 2](assignment2/assignment2.md)
 - [Assignment 3](assignment3/assignment3.md)
+- [Assignment 4](assignment4/assignment4.md)
 
 ## Extra Resources
 I play Turing Complete when looking for inspiration for assignments. Check it out [here](https://store.steampowered.com/app/1444480/Turing_Complete/).
