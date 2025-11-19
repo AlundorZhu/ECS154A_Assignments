@@ -63,12 +63,12 @@ addm r1, r0     ; R1 = R1 + mem[R0] = -5 + mem[16] = -5 + 117 = 112   ; 0010 100
 jmp 7           ; Jump to instruction at PC + 7                       ; 1111 0111
 ```
 
-## Autograder
-- Read the **commandline verification** section in user guide
-- Include the following circuit in your solution for autograder to work:
+## Autograder/Testing your work
+1. Read the **commandline verification** section in user guide
+2. Include the following circuit in your solution for autograder to work:
 
 ![autograder things](autograder_things.png)
 
-- Name your file `CPU.circ`
-- Run the following command `java -jar logisim-evolution.jar grader/CPU/generic8bitCpu.circ -tty table -load testdata/CPU/RAMcontent` 
-- Compare your output with [expected output](output)
+3. Name your file `CPU.circ`
+4. Run the following command `java -jar logisim-evolution.jar grader/CPU/CPU.circ -tty table -load testdata/CPU/RAMcontent` 
+5. Compare your output with [expected output](output)
