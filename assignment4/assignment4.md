@@ -1,4 +1,4 @@
-# Building a single bus 8-bit CPU (Working Progress)
+# Building a single bus 8-bit CPU
 ![CPU](CPU.png)
 ## You will be building a cpu with the following specifications:
 
@@ -13,10 +13,9 @@ The machine is byte-addressable.  Offsets are sign-extended, and jumps are done 
 ## The machine has 3 different instruction formats:  A, B, and C.
 
 A-type: 
-| Opcode |  ds  |   s   | extra |
-|--------|------|-------|-------|
-| 7-4    |  3   |   2   | 1-0   |
-
+| Opcode |  ds  |   s   | extra  |
+|--------|------|-------|--------|
+| 7-4    |  3   |   2   | 1-0    |
 
 B-type: 
 | Opcode |  ds  |   Immediate   |
@@ -45,9 +44,25 @@ C-type:
 | addm               | 0010   | rds=rds+mem[rs] |
 | addi               | 0011   | rds=rds+imm |
 | sub                | 0100   | rds=rds-rs |
-| addmi              | 0110   | rds=rds+mem[rs+imm] |
 | jmp                | 1111   | PC=PC+offset (offset is sign extended) |
 
-## You will need to expose the following registers for autograding purposes: (Working Progress)
-- R0
-- R1
+## RAM contents in assembly format
+```
+addi r0, 5      ; R0 = 5                                              ; 0011 0101
+addi r1, 7      ; R1 = 7                                              ; 0011 1111
+add r0, r1      ; R0 = R0 + R1 = 12                                   ; 0001 0100
+sub r1, r0      ; R1 = R1 - R0 = -5                                   ; 0100 1000
+addi r0, 4      ; R0 = R0 + 4 = 16                                    ; 0011 0100
+addm r1, r0     ; R1 = R1 + mem[R0] = -5 + mem[16] = -5 + 117 = 112   ; 0010 1000
+jmp 7           ; Jump to instruction at PC + 7                       ; 1111 0111
+```
+
+## Autograder
+- Read the **commandline verification** section in user guide
+- Include the following circuit in your solution for autograder to work:
+
+![autograder things](autograder_things.png)
+
+- Name your file `CPU.circ`
+- Run the following command `java -jar logisim-evolution.jar grader/CPU/generic8bitCpu.circ -tty table -load testdata/CPU/RAMcontent` 
+- Compare your output with [expected output](output)
