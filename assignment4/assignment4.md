@@ -10,6 +10,8 @@ We are going to show from beginning to end how to wire up a generic 8-bit machin
 
 The machine is byte-addressable.  Offsets are sign-extended, and jumps are done by adding the sign-extended offset field to the PC.  Immediates are not sign-extended.
 
+**Hint**: You may want IR and MDR registers to be level triggered.
+
 ## The machine has 3 different instruction formats:  A, B, and C.
 
 A-type: 
